@@ -3,6 +3,7 @@
 ' using the specified charset (use "utf-8" for UTF-8 encoding).
 ' 
 ' See HKEY_CLASSES_ROOT\MIME\Database\Charset for a list of supported charsets on your system.
+' Warning: csISOLatin1, ISO_8859-1, ... are mapped to Windows 1252, not proper ISO/IEC 8859-1.
 ' 
 ' Dependencies:
 ' - Microsoft ActiveX Data Objects ("ADODB.Stream")
